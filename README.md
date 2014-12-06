@@ -2,4 +2,4 @@
 
 ###Wanted to combine ios device and simulator frameworks
 
-lipo TwilioClientKit.device TwilioClientKit.simulator  -create -output TwilioClientKit
+lipo Release-iphoneos/XMPPKit.framework/XMPPKit Release-iphonesimulator/XMPPKit.framework/XMPPKit  -create -output XMPPKit
